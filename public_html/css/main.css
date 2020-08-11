@@ -1,0 +1,865 @@
+
+/*
+Brand colours
+-------------
+Purple    = #300861
+Burgundy  = #8F0047
+Raspberry = #FF4057
+Peach     = #FF9161
+
+Grey      = #666
+Light grey= #ddd
+*/
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  padding: 10px;
+  color: #333;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Muli', sans-serif;
+  color: #300861;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+h2.smaller {
+  font-size: 130%;
+  margin: 1.2em 0 0;
+}
+
+h3 {
+  font-size: 130%;
+}
+
+h3.smaller {
+  font-size: 115%;
+}
+
+h3, h4 {
+  margin: 0;
+}
+
+h4 {
+  color: #555;
+}
+
+h4.plain {
+  font-weight: normal;
+  line-height: 1.4;
+  margin-bottom: 2px;
+}
+
+a:link, a:visited {
+  color: #8038d1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.active {
+  text-decoration: underline;
+}
+
+figure {
+  margin: 0;
+}
+
+figcaption {
+  font-size: .75em;
+  color: #666;
+  line-height: 1.4;
+}
+
+main {
+  clear: both;
+  padding: 2.5em 0 3em;
+  font-size: 1em;
+}
+
+.logo {
+  padding: 5px 5px 5px;
+}
+
+.site-title a:link, .site-title a:visited {
+  font-size: 1.5em;
+  padding-left: 15px;
+  color: #333;
+  transition: color .2s;
+}
+
+.site-title a:hover, .site-title a:active {
+  color: #bbb;
+  text-decoration: none;
+}
+
+#main-header {
+  border-bottom: 2px solid #300861;
+  padding-bottom: 10px;
+}
+
+#main-header .nav-wrapper {
+  background: #300861;
+}
+
+#main-header nav ul, .subnav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#main-header nav li, .subnav li {
+  list-style-type: none;
+}
+
+#main-nav {
+  margin-top: 10px;
+}
+
+.nav-wrapper {
+  background: #FF4057;
+}
+
+#main-nav li a:link, #main-nav li a:visited {
+  color: white;
+  display: block;
+  padding: 15px;
+  border-bottom: 1px solid #666;
+  text-decoration: none;
+}
+
+.active {
+  background: #FF4057;
+  text-decoration: none;
+}
+
+#show-nav {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background: transparent url("/images/hamburger-icon.png") 100% 0 no-repeat;
+  background-size: 60%;
+  position: absolute;
+  top: 30px;
+  right: 12px;
+}
+
+.open #show-nav {
+  background: transparent url("/images/hamburger-icon-open.png") 100% 0 no-repeat;
+  background-size: 60%;
+}
+
+#show-nav:hover {
+  cursor: pointer;
+}
+
+.nav-checkbox  {
+  display: none;
+}
+
+footer {
+  border-top: 4px solid #300861;
+  padding: 20px 5px;
+}
+
+footer .float-left {
+  margin-right: 30px;
+}
+
+main h1 {
+  font-size: 1.75em;
+}
+
+main h2 {
+  margin: 1.5em 0 0.4em;
+}
+
+main ul {
+  list-style: none;
+  /*
+  line-height: 1.2;
+  */
+}
+
+main ul li {
+  padding: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+
+main ul.low-padding li {
+  padding-bottom: 5px;
+}
+
+main ul li:before {
+  color: #300861;
+  content: "\2022";
+  position: absolute;
+  top: 5px;
+  left: -10px;
+  font-size: 2em;
+  line-height: .25;
+}
+
+main ul.inline-links {
+  padding-left: 0;
+  text-align: right;
+  letter-spacing: -1em;
+  margin-top: 2em;
+}
+
+main ul.inline-links li {
+  letter-spacing: normal;
+  padding: 0 10px 0 10px;
+  border-left: 2px solid #ddd;
+  display: inline;
+}
+
+main ul.inline-links li:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+main ul.inline-links li:before {
+  content: none;
+}
+
+main ol li {
+  padding-bottom: 10px;
+}
+
+main p {
+  margin: 0 0 1em 0;
+}
+
+main ul {
+  margin-bottom: 0.5em;
+}
+
+main ul ul {
+  margin-bottom: 0;
+}
+
+table {
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 5px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.no-left-padding th, .no-left-padding td {
+  padding-left: 0;
+}
+
+/* .red {
+  color: #dF2037;
+} */
+
+.grey {
+  color: #999;
+  font-style: italic;
+}
+
+.grey-dark {
+  color: #777;
+}
+
+.vertical-headers td, .vertical-headers th {
+  padding: 3px 20px 3px 0;
+}
+
+th {
+  text-align: left;
+}
+
+
+
+
+/*
+* Utility classes
+*/
+.hidden {
+  border: 0;
+  height: 1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.float-left, .float-right {
+  display: block;
+  margin: 0 auto 1em;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.low-line-height {
+  line-height: 1.2;
+}
+
+.top-margin {
+  margin-top: 1em;
+}
+
+.x-top-margin {
+  margin-top: 1.5em;
+}
+
+.xx-top-margin {
+  margin-top: 2em;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+
+.low-top-margin {
+  margin-top: .25em;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.low-bottom-margin {
+  margin-bottom: .25em;
+}
+
+.bottom-margin {
+  margin-bottom: 1em;
+}
+
+.x-bottom-margin {
+  margin-bottom: 1.5em;
+}
+
+.xx-bottom-margin {
+  margin-bottom: 2em;
+}
+
+.right-margin {
+  margin-right: 1em;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.border {
+  border: 1px solid #ddd;
+}
+
+.border-bottom {
+  border-bottom: 2px solid #300861;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.indented, .vertical-headers .indented {
+  padding-left: 20px;
+}
+
+.tinted {
+  background: #f3f3f3;
+  border-radius: 5px;
+}
+
+strong {
+  color: #555;
+}
+
+.fill {
+	object-fit: scale-down;
+	width: 100%;
+}
+
+.inner-padding {
+  padding: 25px;
+}
+
+.inner-padding-small {
+  padding: 10px;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.normal-weight {
+  font-weight: normal;
+}
+
+.small-text {
+  font-size: 90%;
+}
+
+.x-small-text {
+  font-size: 75%;
+}
+
+.centered {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.full-width {
+  display: block;
+  width: 100%;
+  margin: 1.5em auto;
+}
+
+.full-width img {
+  width: 100%;
+}
+
+.percent-20 {
+  width: 20%;
+}
+
+.width-300 {
+  width: 300px;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background .2s;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+a.purple, a.purple:visited {
+  background: #300861;
+  color: white;
+}
+
+.purple:hover {
+  background: #FF4057;
+}
+
+.download {
+  padding-left: 18px;
+  background: transparent url(/images/download-icon.png) 0 50% no-repeat;
+  background-size: 15px;
+}
+
+.text-white, .text-white a:link, .text-white a:visited {
+  color: #fff;
+}
+
+.subscribe {
+  padding-left: 40px;
+  font-size: 90%;
+  transition: box-shadow .2s;
+}
+
+.subscribe:hover {
+  text-decoration: none;
+  font-size: 90%;
+  box-shadow: 0 0 10px #999;
+}
+
+.newsletter {
+  background: #FF4057 url(/images/envelope.png) 10px 50% no-repeat;
+  background-size: 20px;
+}
+
+.twitter {
+  background: #1da1f2 url(/images/logos/twitter-logo.png) 10px 50% no-repeat;
+  background-size: 20px;
+}
+
+a.fellowship {
+  background: #300861 url(/images/subscribe.png) 10px 50% no-repeat;
+  background-size: 20px;
+  color: white;
+  display: inline-block;
+  padding: 8px 14px 8px 37px;
+  transition: background-color 0.3s;
+  font-size: 90%;
+}
+
+a.fellowship:hover {
+  text-decoration: none;
+  box-shadow: 0 0 10px #999;
+  background-color: #502881;
+}
+
+.percent-25 .xl .btn {
+    border-radius: 5px;
+    padding: 5px 10px 5px 9px;
+}
+
+/* Use 'article' because percent-25 is used in the layout divs */
+article .percent-25 {
+  width: 25%;
+}
+
+.flexbox.percent-25 {
+  with: auto;
+}
+
+.percent-35 {
+  width: 35%;
+}
+
+.flex-container {
+  flex-direction: column;
+}
+
+.flexbox {
+  margin-bottom: 1em;
+}
+
+.tile {
+  border: 1px solid #ddd;
+  transition: border .3s, box-shadow .3s;
+}
+
+.tile:hover {
+  border: 1px solid #bbb;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.tile a {
+  display: block;
+  padding: 15px;
+}
+
+.img-fill img {
+  width: 60%;
+}
+
+.subnav h2 {
+  margin: 0;
+  font-size: 105%;
+}
+
+.subnav li {
+  padding: 0;
+}
+
+.subnav li:before {
+  content: none;
+}
+
+.subnav a {
+  display: block;
+  padding: 12px 10px;
+  border-bottom: 1px solid #ddd;
+  background: #300861;
+  color: white;
+  transition: color .2s;
+}
+
+.subnav a:hover {
+  text-decoration: none;
+  color: #FF4057;
+}
+
+.subnav h2 a {
+  background: #FF4057;
+  padding: 10px 10px;
+}
+
+.subnav h2 a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.subnav li a {
+  font-size: .90em;
+  padding-left: 15px;
+}
+
+.subnav li a.active {
+  color: #FF4057;
+  text-decoration: none;
+}
+
+/* Accordion styles */
+.accordion {
+ background-color: #f3f3f3f;
+ cursor: pointer;
+ padding: 18px;
+ width: 100%;
+ text-align: left;
+ border: none;
+ outline: none;
+ transition: 0.4s;
+ font-size: 1.1em;
+ margin: 5px 0;
+}
+
+.accordion-active, .accordion:hover {
+ background-color: #300861;
+ color: white;
+}
+
+/* Accordion panel */
+.panel {
+ background-color: white;
+ transition: opacity 1s;
+ opacity: 0;
+ height: 0;
+ overflow: hidden;
+}
+
+/* Mailchimp signup form */
+#mc_embed_signup {
+   clear:left;
+ }
+
+.percent-25 #mc_embed_signup label {
+  padding-bottom: 5px;
+}
+
+.percent-25 #mc_embed_signup label.title {
+   font-size: 1.2em;
+   color: #300861;
+   padding-bottom: 15px;
+ }
+
+ #mc-embedded-subscribe-form input[type=checkbox]{
+   display: inline;
+   width: auto;
+   margin-right: 10px;
+ }
+
+ #mergeRow-gdpr {
+   margin-top: 20px;
+ }
+
+ #mergeRow-gdpr fieldset label {
+   font-weight: normal;
+ }
+
+ #mc-embedded-subscribe-form .mc_fieldset {
+   border:none;
+   min-height: 0;
+   padding-bottom:0;
+ }
+
+ .percent-25 #mc_embed_signup input.email {
+   width: 75%;
+ }
+
+ .fixed-13em {
+   width: 13em;
+ }
+
+ #mc_embed_signup input.button {
+   background: #FF4057;
+ }
+
+
+ /*
+ * Larger screens e.g. large phones, tablets
+ */
+ @media screen and (min-width: 500px) {
+
+   .float-left {
+     float: left;
+     margin: 0 10px 10px 0;
+   }
+
+   .float-right {
+     float: right;
+     margin: 5px 10px 20px 20px;
+   }
+
+   .flexbox.percent-25 {
+     with: auto;
+   }
+
+   .percent-40 {
+	   width: 40%;
+   }
+}
+
+
+
+/*
+* Larger screens
+*/
+@media screen and (min-width: 1024px) {
+
+  body {
+    padding: 0;
+  }
+
+  #main-header {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  #show-nav, .nav-checkbox {
+    display: none;
+  }
+
+  .inner-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #main-nav li a:link, #main-nav li a:visited {
+    border-bottom: 0;
+  }
+
+  .inner-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .logo {
+    padding: 18px 15px 10px;
+  }
+
+  article {
+    padding: 0 25px 0 15px;
+  }
+
+  #main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #main-nav li {
+    float: left;
+  }
+
+  #main-nav li a:link, #main-nav li a:visited {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    transition: background .2s;
+  }
+
+  #main-nav li a:hover {
+      background-color: #FF4057;
+  }
+
+  #main-nav .active {
+      text-decoration: none;
+  }
+
+  nav {
+    overflow: auto;
+  }
+
+  footer {
+    padding: 20px;
+  }
+
+  .flex-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-container .flexbox {
+    margin-right: 15px;
+    min-width: 0;
+  }
+
+  .flex-container .flexbox:last-child {
+    margin-right: 0;
+  }
+
+  .img-fill img {
+    width: 100%;
+  }
+
+  .percent-15 {
+    width: 15%;
+  }
+
+  .percent-25 {
+    width: 25%;
+  }
+
+  .percent-30 {
+    width: 30%;
+  }
+
+  .percent-60 {
+    width: 60%;
+  }
+
+  .percent-75 {
+    width: 75%;
+  }
+
+  .tall {
+    height: 20em;
+  }
+
+  .full-width {
+    width: 80%;
+  }
+
+/*
+* Tiled list - unused at the moment
+  .tiled, .tiled li {
+    padding: 0;
+  }
+
+  .tiled li a {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    float: left;
+    width: 25%;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+
+  .tiled li img {
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .tiled li:last-child a {
+    margin-right: 0;
+  }
+
+  .tiled li:before {
+    content:none;
+  }
+*/
+
+}
