@@ -10,6 +10,16 @@ cd fairplus-project.eu
 docker-compose up --build
 ```
 
+You can visit http://localhost/ now to see the website.
+
+If you edit any file, stop the previous process (usually Ctrl + C), then execute again:
+
+```
+docker-compose up --build
+```
+
+to always see the most up-to-date version.
+
 ## Contributors
 
 ...to be disclosed...

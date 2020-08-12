@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+    php-apache:
+        build: .
+        ports: 
+            - 127.0.0.1:80:80
