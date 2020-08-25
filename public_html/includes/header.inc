@@ -11,6 +11,24 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700|Muli:600" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <meta name="google-site-verification" content="4Gn_YRKVrewms1rykObFobg2Pq_BXUDxkW_qhtN_odk" />
+    <!-- Cookie Consent by https://www.PrivacyPolicies.com -->
+    <script type="text/javascript" src="//www.privacypolicies.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
+    <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+    cookieconsent.run({"notice_banner_type":"headline","consent_type":"express","palette":"light","language":"en","website_name":"fairplus-project.eu","cookies_policy_url":"https://fairplus-project.eu/cookies"});
+    });
+    </script>
+    <!-- Google Analytics -->
+        <!-- Google Tag Manager -->
+        <script type="text/plain" cookie-consent="tracking">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MXV55BP');</script>
+        <!-- End Google Tag Manager -->
+    <!-- end of Google Analytics-->
+    <noscript>Cookie Consent by <a href="https://www.PrivacyPolicies.com/cookie-consent/" rel="nofollow noopener">PrivacyPolicies.com</a></noscript>
+    <!-- End Cookie Consent -->
     <script src="/scripts/responsive-menu.js"></script>
     <script src="/scripts/accordion.js"></script>
 </head>
