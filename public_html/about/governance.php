@@ -33,10 +33,8 @@
                   <div class="tinted inner-padding xx-top-margin">
                   <h2 class="line-height-1 no-top-margin">Upcoming governance meetings</h2>
                   <ul>
-                  <li><strong>30 January 2020 (morning):</strong> Scientific and Industrial Advisory Board, Ethics Advisory Board, and Work Package leaders F2F meetings</li>
-                  <li><strong>30-31 January 2020 (lunch-to-lunch):</strong> FAIRplus General Assembly</li>
+                  <li><strong>14-15 January 2021:</strong> FAIRplus General Assembly (online) </li>
                 </ul>
-                <p><strong>Location:</strong> Wellcome Genome Campus, Hinxton, Cambridge, UK</p>
               </div>
 
 <ul class="inline-links x-top-margin">
