@@ -12,26 +12,27 @@
              <div class="percent-75">
                 <article>
                   <h1>How the project is organised</h1>
-                  <p>Our work plan is designed around a workflow containing three components:</p>
+                  <p class="no-bottom-margin">Our work plan is designed around a workflow containing three components:</p>
                   <ol>
-                    <li>Identify data sources</li>
-                    <li>Define standards and develop processes to FAIRify the data</li>
-                    <li>Implement an infrastructure to host the FAIRified data</li>
+                    <li><strong>Identify data sources</strong><br /> (see <a href="../choosing-data">Choosing a dataset</a>)</li>
+                    <li><strong>Define standards and develop processes to FAIRify the data</strong> <br /> (see <a href="../making-fair">Making the data FAIR</a>)</li>
+                    <li><strong>Implement an infrastructure to host the FAIRified data</strong><br />  (see <a href="../making-fair#deployment">Deployment plan and technical solutions</a>)</li>
                   </ol>
                   <!--<p>While data flows through these three components, feedback is sent back up the chain, continuously improving the process.
                   Meanwhile, knowledge is stored, updated, and communicated to the FAIRplus community for reuse.</p>
                   <p>All this is overseen by a project management team, which also ensures long-term sustainability.</p>-->
-                  <h2 class="no-top-margin">Overview</h2>
-                  <figure class="top-margin percent-60">
-                    <img src="/images/fairplus-squads.svg" alt="A summary of squads and Work Packages" />
+                  <h2 class="low-top-margin">Overview</h2>
+                  <p>Six <strong><a href="#wps">Work Packages (WPs)</a></strong> are responsible for implementaing the tasks in the workflow above. Two groups called <strong><a href="#squads">'Squads'</a></strong> are responsible for making sure these tasks deliver positive outcomes for real world data. Squads draw expertise from each of the Work Packages, and work to develop and improve FAIRification techniques and tools. </p>
+                  <figure class="x-top-margin percent-60">
+                    <img src="/images/FAIRplus-squads.png" width="600px" alt="A summary of squads and Work Packages" />
                   </figure>
-                  <p class="x-top-margin">Six <strong><a href="#wps">Work Packages (WPs)</a></strong> are responsible for the major activities of the projects, such as identifying datasets to FAIRify and developing processes and standards to FAIRify them. Two groups called <strong><a href="#squads">'Squads'</a></strong> are responsible for making sure these activities deliver positive outcomes for real world data. Squads draw expertise from each of the Work Packages, and work to develop and improve FAIRification techniques and tools. </p><p>Members of the Squads also organise <strong>Bring Your Own Data (BYOD)</strong> sessions for representatives from industry (EFPIA), where industry partners bring their own data and learn how to FAIRify it.</p> <p>Once a quarter, there is a <strong>Squad 'Face to Face'</strong> meeting. These meetings provide a focal point for iterating on FAIRification processes, through the exchange of experience and knowledge between Squads. After each Squad Face to Face, the latest progress is reported back to the rest of the FAIRplus consortium. </p>
+                  <p class="x-top-margin">Members of the Squads also organise <strong>Bring Your Own Data (BYOD)</strong> sessions for representatives from industry (EFPIA), where industry partners bring their own data and learn how to FAIRify it.</p> <p>Once a quarter, there is a <strong>Squad 'Face to Face'</strong> meeting. These meetings provide a focal point for iterating on FAIRification processes, through the exchange of experience and knowledge between Squads. After each Squad Face to Face, the latest progress is reported back to the rest of the FAIRplus consortium. </p>
                   <h2 id="wps">The Work Packages</h2>
                   <figure class="full-width">
-                    <img src="/images/fairplus-wp-overview.png" alt="A summary of the Work Packages" />
+                    <img src="/images/FAIRplus-WPs-diagram.svg" alt="A summary of the Work Packages" />
                     <figcaption><strong>How WPs 1-5 work together.</strong> The red arrows represent the flow of data through the FAIRification process (WP1, WP2, WP3). The orange arrows represent the flow of feedback to continuously improve the process. The blue arrows represent the flow of knowledge and datasets for dissemination to the community (WP4). WP5 is responsible  for the overall management of the project.</figcaption>
                   </figure>
-                  <div class="tinted inner-padding top-margin" id="wp1">
+                  <div class="tinted inner-padding xx-top-margin" id="wp1">
                     <h3 class="bottom-margin">WP1: Identification data sources for FAIRification</h3>
                     <h4>Tasks</h4>
                       <ul class="low-top-margin">
@@ -43,7 +44,7 @@
                     <ul class="low-top-margin">
                       <li><a href="https://zenodo.org/record/3274230#.XSRF4y2ZNTY">First three pilot datasets selected and available</a>. (June 2019)
                       <li><a href="https://zenodo.org/record/3596024#.XgtevC2cZQI">Selection criteria and guidelines for data sources from IMI projects and EFPIA internal databases</a>. A report describing the criteria, including the underlying rationale with respect to ELSI, scientific impact, societal impact, and ease of access. (December 2019)</li>
-                      <li>The first 15 IMI datasets selected and available for inclusion in WP2-4 processes. (December 2020)</li>
+                      <li><a href="https://zenodo.org/record/4428746#.X_hvC-n7TUI">The first 15 IMI datasets selected and available for inclusion in WP2-4 processes.</a> (December 2020)</li>
                       <li>Finalised selection criteria and guidelines for data sources, taking into account the practical operational experiences of WP2 and WP3. This includes a description of all 20 IMI and EFPIA data sources selected. (December 2021)
                       </li>
                     </ul>
@@ -61,7 +62,7 @@
                       <figcaption>David Henderson <br />(Bayer)<br /><a href="mailto:&#100;&#97;&#118;&#105;&#100;&#46;&#104;&#101;&#110;&#100;&#101;&#114;&#115;&#111;&#110;&#64;&#98;&#97;&#121;&#101;&#114;&#46;&#99;&#111;&#109;">&#100;&#97;&#118;&#105;&#100;&#46;&#104;&#101;&#110;&#100;&#101;&#114;&#115;&#111;&#110;&#64;&#98;&#97;&#121;&#101;&#114;&#46;&#99;&#111;&#109;</a></figcaption>
                     </figure>
                     <h4 class="clear-left">Participants</h4>
-                    <p>AstraZeneca, Bayer, Boehringer, BSC, Fraunhofer, GSK, IMIM (ELIXIR-ES), Janssen, Lilly, Novartis, SIB (ELIXIR-CH), University of Luxembourg (ELIXIR-LU), UPS.    </p>
+                    <p>AstraZeneca, Bayer, Boehringer, BSC, Fraunhofer, GSK, IMIM (ELIXIR-ES), Janssen, Novartis, SIB (ELIXIR-CH), University of Luxembourg (ELIXIR-LU), UPS.    </p>
                   </div>
                   <div class="tinted inner-padding x-top-margin" id="wp2">
                     <h3 class="bottom-margin">WP2: Standards definition and process development</h3>
@@ -74,7 +75,7 @@
                       </ul>
                     <h4>Deliverables</h4>
                     <ul class="low-top-margin">
-                      <li><a href="https://fairplus.github.io/the-fair-cookbook/intro.html">FAIR Cookbook</a>. This will be in the form of recipes containing guidance on how to use a stack of standards, metrics, and related services to FAIRifying datasets.  (December 2021)</li>
+                      <li><a href="https://fairplus.github.io/the-fair-cookbook">FAIR Cookbook</a>. This will be in the form of recipes containing guidance on how to use a stack of standards, metrics, and related services to FAIRifying datasets.  (December 2021)</li>
                       <li>BYOD Guidelines. This document will describe best practice for organising Bring Your Own Data events (BYODs), as well as explain how to FAIRify specific data types, for different maturation levels.  (December 2021)</li>
                       <li>Report on BYODs. This is a set of documents reporting on the work performed at each BYOD event, including inputs/outputs, exemplars and lesson learned.  (December 2021)</li>
                     </ul>
@@ -89,7 +90,7 @@
                     </figure>
                     <p class="clear-left"><strong>Deputy WP lead:</strong> Philippe Rocca-Serra (University of Oxford, ELIXIR UK; <a href="mailto:&#112;&#104;&#105;&#108;&#105;&#112;&#112;&#101;&#046;&#114;&#111;&#099;&#099;&#097;&#045;&#115;&#101;&#114;&#114;&#097;&#064;&#111;&#101;&#114;&#099;&#046;&#111;&#120;&#046;&#097;&#099;&#046;&#117;&#107;">&#112;&#104;&#105;&#108;&#105;&#112;&#112;&#101;&#046;&#114;&#111;&#099;&#099;&#097;&#045;&#115;&#101;&#114;&#114;&#097;&#064;&#111;&#101;&#114;&#099;&#046;&#111;&#120;&#046;&#097;&#099;&#046;&#117;&#107;</a>)</p>
                     <h4 class="clear-left">Participants</h4>
-                    <p>AstraZeneca, BSC (ELIXIR-ES), EMBL-EBI, Fraunhofer, Heriot Watt University (ELIXIR-UK), IMIM (ELIXIR-ES), Imperial College London, Janssen, Lilly, Maastricht University (ELIXIR-NL), Novartis, University of Luxembourg (ELIXIR-LU),  University of Manchester (ELIXIR-UK), University of Oxford (ELIXIR-UK), UPS.</p>
+                    <p>AstraZeneca, BSC (ELIXIR-ES), EMBL-EBI, Fraunhofer, Heriot Watt University (ELIXIR-UK), IMIM (ELIXIR-ES), Imperial College London, Janssen, Maastricht University (ELIXIR-NL), Novartis, University of Luxembourg (ELIXIR-LU),  University of Manchester (ELIXIR-UK), University of Oxford (ELIXIR-UK), UPS.</p>
                   </div>
                   <div class="tinted inner-padding x-top-margin" id="wp3">
                     <h3 class="bottom-margin">WP3: Implementation and infrastructure</h3>
@@ -104,8 +105,8 @@
                     <h4>Deliverables</h4>
                       <ul class="low-top-margin">
                         <li><a href="https://zenodo.org/record/3587397#.XicVbBTnjmF">First phase exemplar IMI projects FAIRified</a>. A list of FAIRified datasets from exemplar IMI projects, indicating the level of FAIRness. (December 2019)</li>
-                        <li>IMI FAIR metrics publication. (December 2020)
-                        <li>A report on IMI projects for data types and current technical solutions detailing phasing of implementation. (December 2020)</li>
+                        <li><a href=" https://zenodo.org/record/4428633#.X_hqzun7TUI">IMI FAIR metrics publication</a>. (December 2020)
+                        <li><a href="https://zenodo.org/record/4428721#.X_htRen7TUI">A report on IMI projects for data types and current technical solutions detailing phasing of implementation</a>. (December 2020)</li>
                         <li>Confidential report summarising the work on the FAIRification of the first EFPIA exemplar. (June 2021)</li>
                         <li>An IMI FAIR Data Catalogue for IMI data that supports data discovery and where IMI FAIRification progress and metrics can be publicly indicated. (December 2021)</li>
                         <li>A technical feasibility report with an exemplar for each data type outlining local, remote and cloud based options for FAIRification hosting. (December 2021)</li>
@@ -121,9 +122,9 @@
                       <img src="/images/people/karsten-quast.jpeg" alt="Rudi Verbeeck" width="150" class="border" />
                       <figcaption>Karsten Quast<br />(Boehringer Ingelheim)<br /><a href="mailto:karsten.quast@boehringer-ingelheim.com">karsten.quast@boehringer-ingelheim.com</a></figcaption>
                     </figure>
-                    
+
                     <h4 class="clear-left">Participants</h4>
-                    <p>AstraZeneca, Bayer, Boehringer, BSC (ELIXIR-ES), EMBL-EBI, GSK, IMIM (ELIXIR-ES), Imperial College London, Janssen, Lilly, PHACTS, The Hyve, University of Oxford (ELIXIR-UK), University of Manchester (ELIXIR-UK), Maastricht University (ELIXIR-NL), University of Luxembourg (ELIXIR-LU).</p>
+                    <p>AstraZeneca, Bayer, Boehringer, BSC (ELIXIR-ES), EMBL-EBI, GSK, IMIM (ELIXIR-ES), Imperial College London, Janssen, PHACTS, The Hyve, University of Oxford (ELIXIR-UK), University of Manchester (ELIXIR-UK), Maastricht University (ELIXIR-NL), University of Luxembourg (ELIXIR-LU).</p>
                   </div>
                   <div class="tinted inner-padding x-top-margin" id="wp4">
                     <h3 class="bottom-margin">WP4: Communication and outreach</h3>
@@ -148,15 +149,15 @@
                       <figcaption>Jan-Willem Boiten<br />(Lygature)<br /><a href="mailto:&#106;&#97;&#110;&#119;&#105;&#108;&#108;&#101;&#109;&#46;&#98;&#111;&#105;&#116;&#101;&#110;&#64;&#108;&#121;&#103;&#97;&#116;&#117;&#114;&#101;&#46;&#111;&#114;&#103;">&#106;&#97;&#110;&#119;&#105;&#108;&#108;&#101;&#109;&#46;&#98;&#111;&#105;&#116;&#101;&#110;&#64;&#108;&#121;&#103;&#97;&#116;&#117;&#114;&#101;&#46;&#111;&#114;&#103;</a></figcaption>
                     </figure>
                     <figure class="float-left right-margin">
-                      <img src="/images/people/george-papadatos.jpg" alt="George Papadatos" width="150" class="border" />
-                      <figcaption>George Papadatos<br />(GSK)<br /><a href="mailto:&#103;&#101;&#111;&#114;&#103;&#101;&#46;&#120;&#46;&#112;&#97;&#112;&#97;&#100;&#97;&#116;&#111;&#115;&#64;&#103;&#115;&#107;&#46;&#99;&#111;&#109;">&#103;&#101;&#111;&#114;&#103;&#101;&#46;&#120;&#46;&#112;&#97;&#112;&#97;&#100;&#97;&#116;&#111;&#115;&#64;&#103;&#115;&#107;&#46;&#99;&#111;&#109;</a></figcaption>
+                      <img src="/images/people/Stefan-Senger.jpeg" alt="Stefan Senger" width="150" class="border" />
+                      <figcaption>Stefan Senger<br />(GSK)<br /><a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#116;&#101;&#102;&#97;&#110;&#46;&#120;&#46;&#115;&#101;&#110;&#103;&#101;&#114;&#64;&#103;&#115;&#107;&#46;&#99;&#111;&#109;">stefan&#46;x&#46;senger&#64;gsk&#46;com</a></figcaption>
                     </figure>
                     <figure class="float-left right-margin">
                       <img src="/images/people/colin-wood.jpg" alt="Colin Wood" width="150" class="border" />
                       <figcaption>Colin Wood<br />(AstraZeneca)<br /><a href="mailto:&#99;&#111;&#108;&#105;&#110;&#46;&#119;&#111;&#111;&#100;&#64;&#97;&#115;&#116;&#114;&#97;&#122;&#101;&#110;&#101;&#99;&#97;&#46;&#99;&#111;&#109;">colin&#46;w&#111;o&#100;&#64;ast&#114;a&#122;eneca&#46;com&#32;</a></figcaption>
                     </figure>
                     <h4 class="clear-left">Participants</h4>
-                    <p>AstraZeneca, Bayer, Boehringer, BSC (ELIXIR-ES), ELIXIR Hub, Fraunhofer, GSK, IMIM (ELIXIR-ES), Janssen, Lilly, Lygature, The Hyve, University of Oxford (ELIXIR-UK), UPS.</p>
+                    <p>AstraZeneca, Bayer, Boehringer, BSC (ELIXIR-ES), ELIXIR Hub, Fraunhofer, GSK, IMIM (ELIXIR-ES), Janssen, Lygature, The Hyve, University of Oxford (ELIXIR-UK), UPS.</p>
                   </div>
                   <div class="tinted inner-padding x-top-margin" id="wp5">
                     <h3 class="bottom-margin">WP5: Project management, coordination, dissemination and sustainability</h3>
@@ -175,7 +176,7 @@
 high level derived data (metadata) generated as a result of the FAIRification process, and how FAIR principles are guaranteed.(June 2019) </li>
                         <li><a href="https://zenodo.org/record/3585510#.XfyJ5S2cZQI">FAIRplus Handbook and project monitoring</a>. Link to the initial version of the project handbook including guidelines (i.e. governance, communication) and assets as well as project performance indicators. (December 2019)</li>
                         <li><a href="https://fairplus-project.eu/impact/kpi-dashboard">KPI Dashboard.</a> Key Performance Indicators of FAIRplus activities (July 2020).</li>
-                        <li>Sustainability Plan. Consolidated sustainability plan that will incorporate inputs of all participants and specific work carried out by
+                        <li><a href="https://zenodo.org/record/4354652#.X9zA7ar7RQI">Sustainability Plan</a>. Consolidated sustainability plan that will incorporate inputs of all participants and specific work carried out by
 other WPs. (December 2020)</li>
                         <li>Updated version of the Data Management Plan made available to the FAIRplus participants. (December 2020)</li>
                         <li>Updated FAIRplus Handbook and project monitoring, with a focus on lessons learnt. (December 2021)</li>
@@ -192,7 +193,7 @@ other WPs. (December 2020)</li>
                       <figcaption>Herman Van Vlijmen<br />(Janssen)<br /><a href="mailto:&#104;&#118;&#118;&#108;&#105;&#106;&#109;&#101;&#64;&#105;&#116;&#115;&#46;&#106;&#110;&#106;&#46;&#99;&#111;&#109;">&#104;&#118;&#118;&#108;&#105;&#106;&#109;&#101;&#64;&#105;&#116;&#115;&#46;&#106;&#110;&#106;&#46;&#99;&#111;&#109;</a></figcaption>
                     </figure>
                     <h4 class="clear-left">Participants</h4>
-                    <p>AstraZeneca, Bayer, Boehringer, BSC (ELIXIR-ES), ELIXIR Hub, Fraunhofer, GSK, IMIM (ELIXIR-ES), Janssen, Lilly, Lygature, The Hyve, University of Oxford (ELIXIR-UK), University of Luxembourg (ELIXIR-LU), UPS.</p>
+                    <p>AstraZeneca, Bayer, Boehringer, BSC (ELIXIR-ES), ELIXIR Hub, Fraunhofer, GSK, IMIM (ELIXIR-ES), Janssen, Lygature, The Hyve, University of Oxford (ELIXIR-UK), University of Luxembourg (ELIXIR-LU), UPS.</p>
                   </div>
                   <div class="tinted inner-padding x-top-margin" id="wp6">
                     <h3 class="bottom-margin">WP6: Ethics Requirements</h3>
@@ -225,18 +226,20 @@ other WPs. (December 2020)</li>
 <p>Squads refine their approaches over three-month long release cycles, making their datasets incrementally more FAIR with each release. The Squad members may change after each release based on the expertise needed to swarm the new problem/use case.</p>
 <p>The Squads operate through weekly calls and they meet face-to-face once in every cycle to discuss their approaches, review work done during that release cycle, and plan for the next release. The first two meetings took place in April 2019 in Hinxton and in July 2019 in London, UK. </p>
 <h3 class="low-bottom-margin">Squad leaders</h3>
-<figure class="float-left right-margin">
-  <img src="/images/people/tony-burdett.jpg" alt="Tony Burdett" width="150" class="border" />
-  <figcaption>Tony Burdett (EMBL-EBI, ELIXIR)<br />(Squads leader)<br /><a href='mai&#108;to&#58;t%&#54;2%&#55;5%72det&#116;&#64;e%6&#50;i&#46;a%6&#51;&#46;%75&#107;'>tburdett&#64;ebi&#46;ac&#46;u&#107;</a></figcaption>
-</figure>
-<figure class="float-left right-margin">
-  <img src="/images/people/nick-juty.jpg" alt="Nick Juty" width="150" class="border" />
-  <figcaption>Nick Juty (University of Manchester)<br />(Squad 1 leader)<br /><a href='m&#97;&#105;l&#116;o&#58;&#110;ic&#107;&#46;%6Au&#116;&#121;&#64;man&#99;h%65s&#116;e%72&#46;%61c&#46;u%&#54;B'>nick&#46;j&#117;ty&#64;manc&#104;&#101;st&#101;&#114;&#46;ac&#46;&#117;k</a></figcaption>
-</figure>
-<figure class="float-left">
-  <img src="/images/people/j-strubel-hyve.jpg" alt="Jolanda Strubel" width="150" class="border" />
-  <figcaption>Jolanda Strubel (The Hyve)<br />(Squad 2 leader)<br /><a href="mailto:jolanda@thehyve.nl">jolanda@thehyve.nl</a></figcaption>
-</figure>
+<div class="clearfix">
+  <figure class="float-left right-margin">
+    <img src="/images/people/tony-burdett.jpg" alt="Tony Burdett" width="150" class="border" />
+    <figcaption>Tony Burdett (EMBL-EBI, ELIXIR)<br />(Squads leader)<br /><a href='mai&#108;to&#58;t%&#54;2%&#55;5%72det&#116;&#64;e%6&#50;i&#46;a%6&#51;&#46;%75&#107;'>tburdett&#64;ebi&#46;ac&#46;u&#107;</a></figcaption>
+  </figure>
+  <figure class="float-left right-margin">
+    <img src="/images/people/nick-juty.jpg" alt="Nick Juty" width="150" class="border" />
+    <figcaption>Nick Juty (University of Manchester)<br />(Squad 1 leader)<br /><a href='m&#97;&#105;l&#116;o&#58;&#110;ic&#107;&#46;%6Au&#116;&#121;&#64;man&#99;h%65s&#116;e%72&#46;%61c&#46;u%&#54;B'>nick&#46;j&#117;ty&#64;manc&#104;&#101;st&#101;&#114;&#46;ac&#46;&#117;k</a></figcaption>
+  </figure>
+  <figure class="float-left">
+    <img src="/images/people/j-strubel-hyve.jpg" alt="Jolanda Strubel" width="150" class="border" />
+    <figcaption>Jolanda Strubel (The Hyve)<br />(Squad 2 leader)<br /><a href="mailto:jolanda@thehyve.nl">jolanda@thehyve.nl</a></figcaption>
+  </figure>
+</div>
                   <ul class="inline-links x-top-margin clear-left">
                     <li><a href="/about">About the project</a></li>
                     <li><a href="#main-header">Back to the top</a></li>

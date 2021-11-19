@@ -16,56 +16,28 @@
                      <img src="../images/delegates-fairplus-sme.jpg" alt="Delegates at the first FAIRplus SME event" class="fill" />
                      <figcaption>Delegates at the first 'FAIR Innovation and SME' event (January 2020, Hinxton, UK).</figcaption>
                   </figure>
-                  <p>There are several ways you can get involved in the FAIRplus project.</p>
-                  <ul>
-                    <li><a href="#fellowships">Fellowships</a></li>
-                    <li><a href="#byod">Bring Your Own Data (BYOD) workshops</a></li>
-                    <li><a href="#sme">FAIRplus Innovation and SME Forum</a></li>
-                  </ul>
-                  <p>
-                  <h2 id="fellowships">Fellowships</h2>
-                  <p>FAIRplus will run a Fellowship Programme, which will include a structured learning curriculum and 'training-on-the-job'. After completing the programme, the fellows will be able to work independently as FAIR data advisors.</p>
-                  <p>
-                    <a href="/get-involved/fellowship-apply">Apply to become a FAIRplus Fellow</a> &raquo;
+                  <h2 id="sme" class="no-top-margin">Innovation and SME Forums</h2>
+
+                  <p>The FAIRplus Innovation and SME Forums are aimed at biotech companies interested in making their data FAIR, technology companies offering on FAIRification services, and academic group interested in FAIRification for their data collections.</p>
+
+                  <p>There will be a total of three Innovation and SME Forums organised by FAIRplus, the goal is to bring together researchers, IT managers and FAIR data experts to share their experience and provide feedback on the tools and resources developed by the FAIRplus project.</p>
+
+                  <p><a href="/get-involved/innovation-sme-forum">Innovation and SME Forums page</a> &raquo;</p>
+                  <div class="tinted rounded inner-padding dark-background xx-top-margin">
+                    <h2 class="no-top-margin">Contribute to the FAIR Cookbook</h2>
+                    <a href="https://fairplus.github.io/the-fair-cookbook/content/home.html"><img src="/images/fair-cookbook.png" alt="FAIR cookbook screenshot" style="width: 100%;" class="border"/></a>
+                  <p class="top-margin"><strong>Join us to make the <a href="https://fairplus.github.io/the-fair-cookbook/content/home.html">FAIR Cookbook</a> better by contributing recipes, suggesting improvements, or just giving us new ideas.</strong></p><p> There are lots of ways you can contribute - we've tried to make it as easy as possible! Start with our <a href="https://fairplus.github.io/the-fair-cookbook/content/recipes/help.html">contribute page</a> or join one our monthly 'book dashes' on the last Wednesday of each month (contact <a href="mailto:fairplus-cookbook@elixir-europe.org">fairplus-cookbook@elixir-europe.org</a>).</p>
+                  <p> The FAIR Cookbook is now a recommended resource for data management within EC-funded <a href="https://www.imi.europa.eu/projects-results">IMI projects</a>, so help us make it easier for everyone to have FAIR data.</p>
+                  <p>Spot something amiss in the Cookbook? <a href="https://github.com/FAIRplus/the-fair-cookbook/issues/new?title=Issue%20on%20page%20%2Fcontent/home.html&body=Your%20issue%20content%20here">Report it on GitHub</a>.</p>
+                  </div>
+
+                  <h2 id="fellowships">Fellowship Programme</h2>
+                  <p>The FAIRplus Fellowship Programme is a comprehensive training programme in FAIR data management. The programme will run for a period of approximately 8 months, starting in May 2021 and will guide its fellows through a series of modules combining online learning, 'training on the job' and short face-to-face meetings. After completing the programme, the fellows will have the confidence to lead, advise and initiate FAIR data processes in their respective companies and organisations.</p>
+
+
+                  <p><a href="/get-involved/fellowship">Fellowship Programme page</a> &raquo;</p>
 
                   </p>
-
-
-                  <h2 id="byod" class="xx-top-margin">BYOD workshops</h2>
-                  <p>The BYOD workshop will allow participants to implementing the FAIR standards and metrics with their own data. The workshops will use datasets and tools available and appropriate to the participants and to the FAIR readiness of the datasets. Tools will include those identified in the project (see <a href="/making-fair/">Making data FAIR</a>) but may also include other tools available to participants.</p>
-                  <p>The workshops are aimed at different stakeholder groups e.g. data producers, consumers, service providers, technical experts, tool developers.
-                  </p>
-                  <h2 id="sme" class="x-top-margin">FAIRplus Innovation and SME Forum</h2>
-
-                  <figure class="float-right percent-40">
-                    <img src="../images/fairplus-sme-crowd-shot2.jpg" alt="Delegates at the first FAIRplus SME event" class="fill" />
-                    <figcaption>Networking at the first FAIRplus SME event.</figcaption>
-                  </figure>
-
-
-                                   <p class="top-margin">We will run three networking events the FAIRplus Innovation and SME Forums aimed at:</p>
-                  <ul>
-                    <li>Biotech companies owning data potentially in need of FAIRification</li>
-                    <li>Technology companies who are planning to provide FAIRification services</li>
-                    <li>Academic groups interested in FAIRification for their data collections. </li>
-                  </ul>
-
-
- <p><strong>The first FAIRplus Innovation and SME Forum was held on 29 January 2020 at The Wellcome Genome Campus, Hinxton, Cambridge, UK.</strong> See the <a href="/about/sme-forum-news">news release</a> and the <a href="/get-involved/SME-innovation-forum">event page</a>.</p>
-
-
-                  <p>Each event will have 40-60 participants each in order to allow for ample interaction between event participants and FAIRplus participants. The timing of the events will be driven by the planned outputs of the project. The first event will ensure that large industries and SMEs can feed in their requirements to project participants. The other two events will provide hands-on access to the FAIR databases (where access restrictions allow) that have been implemented in the project. </p>
-
-
-
-                  <p>These events will complement the BYOD activities (see above) and we will aim to co-locate both events where possible. The goal of these activities is to prompt new collaborations between the public and private sectors and to ensure that the impact to industry from the FAIRplus project goes beyond the partners engaged formally in the project.</p>
-
-
-
-
-                  <p><strong>SME events contact:</strong> Katharina Lauer (<a href="mailto:&#107;&#097;&#116;&#104;&#097;&#114;&#105;&#110;&#097;&#046;&#108;&#097;&#117;&#101;&#114;&#064;&#101;&#108;&#105;&#120;&#105;&#114;&#045;&#101;&#117;&#114;&#111;&#112;&#101;&#046;&#111;&#114;&#103;">&#107;&#097;&#116;&#104;&#097;&#114;&#105;&#110;&#097;&#046;&#108;&#097;&#117;&#101;&#114;&#064;&#101;&#108;&#105;&#120;&#105;&#114;&#045;&#101;&#117;&#114;&#111;&#112;&#101;&#046;&#111;&#114;&#103;</a>)</p>
-
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/xBvOvI-xN_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                   <ul class="inline-links x-top-margin">
                     <li><a href="#main-header">Back to the top</a></li>

@@ -20,6 +20,7 @@
 </ul>
 <h2>Newsletters</h2>
 <ul>
+  <li><a href="https://mailchi.mp/e8e72e683e14/fairplus-newsletter-no-1294358">FAIRplus newsletter 06</a> (November 2020)</li>
   <li><a href="http://eepurl.com/g9n8h9">FAIRplus newsletter 05</a> (July 2020)</li>
 <li><a href="http://eepurl.com/gVPe4j">FAIRplus newsletter 04</a> (March 2020)</li>
     <li><a href="https://mailchi.mp/8192cc3a932d/fairplus-newsletter-no-1293721">FAIRplus newsletter 03</a> (November 2019)</li>

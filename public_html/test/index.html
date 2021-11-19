@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+	<title>Fetch test</title>
+</head>
+<body>
+
+<h2>Fetch test</h2>
+
+<script>
+	/**
+	 * Script to grab the ELIXIR COVID-19 resource JSON file and render
+	 * it as HTML. The file is here: https://elixir-europe.org/sites/default/files/json/covid-resources.json
+	 * This file contains information displayed here: https://elixir-europe.org/services/covid-19
+	 *
+	 * * * WARNING: THE JSON FILE MAY CHANGE AND SO THIS WIDGET MAY STOP WORKING. **
+	 * For the status of the JSON file email webmaster@elixir-europe.org.
+	 *
+	 * INSTRUCTIONS: just copy and paste this code into your web page. 
+	 * Don't forget to include the <div class="resource-widget-content"></div> at the end.
+	 *
+	 * Created: 14 May 2020
+	 */
+
+	'use strict';
+
+	window.onload = function () {
+		fetchResource('https://elixir-europe.org/sites/default/files/json/covid-resources.json');
+	};
+
+	// Fetch the JSON file, check for errors, call printText() to print 
+	// the returned data to the page.
+	function fetchResource(resourceUrl) {
+		const myInit = {
+			method: 'GET',
+			mode: 'cors',
+			cache: 'default'
+		};
+		fetch(resourceUrl, myInit)
+			.then(checkStatusCode)
+			.then(parseJson)
+			.then(function (data) {
+				printText(data);
+			})
+			.catch(function (error) {
+				console.log('Fetch request failed: ', error);
+				printErrorMessage();
+			});
+	}
+
+	// Check the status of the request (if status is not 200-299 e.g. network error).
+	// Note this function won't be triggered if the JSON file name changes - 
+	// .catch() will deal with that (see fetchResource()).
+	function checkStatusCode(response) {
+		if (!response.ok) {
+			return Error(response.statusText);
+		}
+		return response;
+	}
+
+	// Extract the JSON from the fetch response.
+	function parseJson(response) {
+		return response.json();
+	}
+
+	// Print the returned data in the page.
+	function printText(data) {
+		const resourceList = data.mainEntity.itemListElement;
+		const htmlContainer = document.querySelector('.resource-widget-content');
+		var i;
+		for (i = 1; i < resourceList.length; i++) {
+			const heading = document.createElement('h2');
+			heading.textContent = resourceList[i].name;
+			htmlContainer.appendChild(heading);
+			htmlContainer.innerHTML += resourceList[i].description;
+		}
+	}
+
+	// Print an error message on screen if the request fails. 
+	// This may be because the resource has moved or changed name.
+	function printErrorMessage() {
+		const htmlContainer = document.querySelector('.resource-widget-content');
+		const errorPara = document.createElement('p');
+		errorPara.innerHTML = "Sorry, this page could not be loaded. Please contact the website team.";
+		htmlContainer.appendChild(errorPara);
+	}
+</script>
+
+<div class="resource-widget-content"></div>
+
+</body>
+</html>

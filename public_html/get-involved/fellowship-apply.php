@@ -33,7 +33,7 @@
                       <li>Astrazeneca AB</li>
                       <li>Bayer AG</li>
                       <li>Boehringer Ingelheim International Gmbh</li>
-                      <li>Eli Lilly And Company Limited</li>
+                      <!--<li>Eli Lilly And Company Limited</li>-->
                       <li>Glaxosmithkline Research And Development LTD.</li>
                       <li>Janssen Pharmaceutica Nv</li>
                       <li>Novartis Pharma AG</li>
@@ -71,12 +71,14 @@
 
                   <p>The application should contain a description of a project they intend to develop as part of the Fellowship programme. For guidelines how to write the project proposal, see the <a href='/images/file/Evaluation-Criteria-FAIRplus-Fellowship.pdf'>Evaluation criteria (pdf)</a>.</p>
 
-<a href="https://www.surveymonkey.com/r/SL8PTRL" class="button purple bottom-margin">Submit your application</a>
+<!-- <a href="https://www.surveymonkey.com/r/SL8PTRL" class="button purple bottom-margin">Submit your application</a> -->
 
 
+<div class="tinted inner-padding">
+                      <h3>Applications for the Fellowship Programme are closed now.</h3>
 
-                      <p class="top-margin"><strong>The deadline for submission is 5 October. Candidates will be notified of the results by 31 November 2020. The Fellowship Programme will start in May 2021. </strong></p>
-
+											<p>Candidates will be notified of the results by 31 January 2021. The Fellowship Programme will start in May 2021. </p>
+</div>
 
 
 
@@ -100,7 +102,7 @@
                   <td style="padding:10px">Following a kick-off meeting in May 2021, the fellows will follow online training modules to learn about the basics of FAIR data and FAIR data management.</td>
                   <td style="padding:10px">The second phase starts with a face-to-face workshop to design the FAIRification plan for their respective projects.</td>
                   <td style="padding:10px">In the third phase, fellows from  EFPIA companies and their academic counterparts work in pairs on their respective FAIRification projects.</td>
-                  <td style="padding:10px">The Felllowship programme finishes with a fece-to-face workshop where fellows present the results of their projects and their experience from the fellowship.</td>
+                  <td style="padding:10px">The Fellowship programme finishes with a face-to-face workshop where fellows present the results of their projects and their experience from the fellowship.</td>
                   </tr>
                   </tbody>
                   </table>

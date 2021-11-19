@@ -16,7 +16,7 @@
                      <img src="../images/fairplus-wp3.jpg" alt="A panel discussion at the FAIRplus SME event" class="fill" />
                      <figcaption>A meeting of Work Package 3, who are looking at how to deploy FAIRified data sets.</figcaption>
                   </figure>
-                  <p>Once datasets have been chosen for the project then they will be made FAIR (Findable, Accessible, Interopeable, Reusable). There are two stages to this process:</p>
+                  <p>Once datasets have been chosen for the project they will be made FAIR (Findable, Accessible, Interopeable, Reusable). There are two stages to this process:</p>
                   <ol>
                     <li>Design and implement a <strong>FAIRification process</strong>, which includes choosing standards to describe the data.</li>
                     <li>Develop and implement a <strong>deployment plan</strong> for the FAIRified datasets, which will include choosing appropriate hosting platforms and tools.</li>
@@ -34,12 +34,16 @@
                     <table class="no-left-padding" style="width: 100%;">
                       <tr>
                         <td class="percent-20"><strong>December 2019</strong></td>
-                        <td><a href="https://fairplus.github.io/the-fair-cookbook/intro.html">FAIR cookbook infrastructure set up</a></td>
+                        <td><a href="https://fairplus.github.io/the-fair-cookbook">FAIR cookbook infrastructure set up</a></td>
+                      </tr>
+                      <tr>
+                        <td><strong>June 2021</strong></td>
+                        <td><a href="https://www.zenodo.org/record/5040592#.YNr-ZTZKiAk">FAIR Data Maturity Framework</a></td>
                       </tr>
                     </table>
                   </div>
-                  <p class="top-margin">This work is being done by WP2 in the FAIRplus project (see  <a href="how-project-organised">How the project is organised</a>).</p>
-                  <h2>Deployment plan and technical solutions</h2>
+                  <p class="top-margin">This work is being done by WP2 in the FAIRplus project (see  <a href="/about/how-project-organised">How the project is organised</a>).</p>
+                  <h2 id="deployment">Deployment plan and technical solutions</h2>
                   <p>We will:</p>
                   <ul>
                     <li>Determine and technical test criteria for hosting solutions for IMI FAIR databases.</li>
@@ -54,6 +58,14 @@
                       <tr>
                         <td class="percent-20"><strong>December 2019</strong></td>
                         <td><a href="https://zenodo.org/record/3587397#.XicNPdb7QUE">First phase exemplar IMI projects FAIRified</a></td>
+                      </tr>
+                      <tr>
+                        <td class="percent-20"><strong>December 2020</strong></td>
+                        <td><a href=" https://zenodo.org/record/4428633#.X_hqzun7TUI">IMI FAIR metrics publication</a> </td>
+                      </tr>
+                      <tr>
+                        <td class="percent-20"><strong>December 2020</strong></td>
+                        <td><a href="https://zenodo.org/record/4428721#.X_htRen7TUI">A report on IMI projects for data types and current technical solutions detailing phasing of implementation</a></td>
                       </tr>
                     </table>
                   </div>

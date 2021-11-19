@@ -13,7 +13,7 @@
                 <article>
                   <h1>Governance</h1>
                   <figure class="full-width">
-                    <img src="/images/fairplus-governance.png" alt="The governing bodies of FAIRplus" />
+                    <img src="/images/FAIRplus-governance.svg" alt="The governing bodies of FAIRplus" />
                   </figure>
 
                   <h2>General Assembly</h2>
@@ -30,12 +30,7 @@
                   <p>A consortium communication strategy will be established (WP5) making appropriate use of digital resources. Communication dynamics will be promoted across the project, keeping the right level of engagement among stakeholders. Specific collaboration tools will be enabled from the first stages of the project. These tools will guarantee the means for efficient communication within the consortium fulfilling internal communication needs, and external stakeholders needs.</p>
                   <h2>WPs 1-4</h2>
                   <p>See <a href="how-project-organised">How the project is organised</a>.</p>
-                  <div class="tinted inner-padding xx-top-margin">
-                  <h2 class="line-height-1 no-top-margin">Upcoming governance meetings</h2>
-                  <ul>
-                  <li><strong>14-15 January 2021:</strong> FAIRplus General Assembly (online) </li>
-                </ul>
-              </div>
+                  
 
 <ul class="inline-links x-top-margin">
   <li><a href="/about">About the project</a></li>

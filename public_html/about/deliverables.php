@@ -12,7 +12,7 @@
              <div class="percent-75">
                 <article>
                   <h1>Deliverables and milestones</h1>
-                  <p>For an overview of the Work Packages and their deliverables see <a href="how-project-organised">How the project is organised</a>.</p>
+                  <p>For an overview of the Work Packages and their deliverables, see <a href="how-project-organised">How the project is organised</a>.</p>
                   <table class="x-top-margin">
                     <tr>
                       <th class="border-bottom percent-15">Due</th>
@@ -51,7 +51,7 @@
                     </tr>
                     <tr>
                       <td>12/19</td>
-                      <td><a href="https://fairplus.github.io/the-fair-cookbook/intro.html">FAIR Cookbook</a></td>
+                      <td><a href="https://fairplus.github.io/the-fair-cookbook">FAIR Cookbook</a></td>
                       <td>WP2</td>
                     </tr>
                     <tr>
@@ -96,7 +96,7 @@
                     </tr>
                     <tr>
                       <td>12/20</td>
-                      <td>The first 15 IMI data sets selected and available for inclusion in WP2 - 4 processes</td>
+                      <td><a href="https://zenodo.org/record/4428746#.X_hvC-n7TUI">The first 15 IMI data sets selected and available for inclusion in WP2 - 4 processes</a></td>
                       <td>WP1</td>
                     </tr>
                     <tr>
@@ -106,17 +106,17 @@
                     </tr>
                     <tr>
                       <td>12/20</td>
-                      <td>IMI FAIR metrics publication</td>
+                      <td><a href=" https://zenodo.org/record/4428633#.X_hqzun7TUI">IMI FAIR metrics publication</a></td>
                       <td>WP3</td>
                     </tr>
                     <tr>
                       <td>12/20</td>
-                      <td>Report on IMI projects for data types and current technical solutions</td>
+                      <td><a href="https://zenodo.org/record/4428721#.X_htRen7TUI">Report on IMI projects for data types and current technical solutions</a></td>
                       <td>WP3</td>
                     </tr>
                     <tr>
                       <td>12/20</td>
-                      <td>Sustainability plan</td>
+                      <td><a href="https://zenodo.org/record/4354652#.X9zA7ar7RQI">Sustainability plan</a></td>
                       <td>WP5</td>
                     </tr>
                     <tr>
@@ -128,6 +128,11 @@
                       <td>06/21</td>
                       <td>Journal publication describing finalised selection criteria and guidelines for data sources taking into account practical operational experiences</td>
                       <td>WP5</td>
+                    </tr>
+                    <tr>
+                      <td>06/21</td>
+                      <td><a href="https://www.zenodo.org/record/5040592#.YNr-ZTZKiAk">FAIR Data Maturity Framework</a></td>
+                      <td>WP2</td>
                     </tr>
                     <tr>
                       <td>12/21</td>
@@ -188,6 +193,11 @@
                       <td>12/21</td>
                       <td>FAIRplus Handbook and project monitoring</td>
                       <td>WP5</td>
+                    </tr>
+                    <tr>
+                      <td>06/22</td>
+                      <td>FAIR-CMM</td>
+                      <td>WP2</td>
                     </tr>
                     <tr>
                       <td>06/22</td>

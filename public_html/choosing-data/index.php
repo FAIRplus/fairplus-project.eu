@@ -16,12 +16,17 @@
                      <img src="../images/phil-gribbon.jpg" alt="Phil Gribbon at the FAIRplus SME event" class="fill" />
                      <figcaption>Phil Gribbon (Fraunhofer) presenting the work of FAIRplus Work Package 1, who are identifying datasets to FAIRify.</figcaption>
                   </figure>
-                  <p>A goal of FAIRplus is to develop a common approach for identifying and prioritising datasets to FAIRify. Both public (<a href="https://www.imi.europa.eu/">IMI</a> funded) and industry (<a href="https://www.efpia.eu/">EFPIA</a>) datasets will be included.  The project will:</p>
+                  <p>A goal of FAIRplus is to develop a common approach for identifying and prioritising datasets to FAIRify. Both public (<a href="https://www.imi.europa.eu/">IMI</a> funded) and industry (<a href="https://www.efpia.eu/">EFPIA</a>) datasets will be included.  The project:</p>
                   <ol>
-                    <li>Identify datasets from IMI consortia and example datasets from EFPIA participants, including pilot datasets from IMI projects. <a href="/choosing-data/datasets">See the selected IMI projects</a>.</li>
-                    <li>Evaluate the relevance, ELSI (Ethical, Legal and Social Implications) requirements and scientific value of datasets.</li>
-                    <li>Propose and implement selection criteria for dataset identification. These criteria will include availability, scientific value, and societal impact. </li>
-                    <li>Adjust guidelines and competency questions to help external (i.e. non-IMI and non-EFPIA) communities to FAIRify their datasets.</li>
+                    <li>Identifies datasets from IMI consortia and example datasets from EFPIA participants, including pilot datasets from IMI projects. See the selected:
+                      <ul class="low-padding no-bottom-margin low-top-margin">
+                        <li><a href="datasets-2020">Datasets 2020</a></li>
+                        <li><a href="datasets-2019">Datasets 2019</a></li>
+                      </ul>
+                    </li>
+                    <li>Evaluates the relevance, ELSI (Ethical, Legal and Social Implications) requirements and scientific value of datasets.</li>
+                    <li>Proposes and implements selection criteria for dataset identification. These criteria include availability, scientific value, and societal impact. </li>
+                    <li>Adjusts guidelines and competency questions to help external (i.e. non-IMI and non-EFPIA) communities to FAIRify their datasets.</li>
                   </ol>
                   <div class="tinted inner-padding">
                     <h2 class="no-top-margin low-bottom-margin">Work completed</h2>
@@ -33,6 +38,10 @@
                       <tr>
                         <td><a href="https://zenodo.org/record/3596024#.XgtevC2cZQI">A report containing the selection criteria and guidelines for data sources from IMI projects and EFPIA internal databases</a></td>
                           <td>December 2019</td>
+                      </tr>
+                      <tr>
+                        <td><a href="https://zenodo.org/record/4428746#.X_hvC-n7TUI">The first 15 IMI datasets selected and available for inclusion in WP2-4 processes.</a></td>
+                          <td>December 2020</td>
                       </tr>
                     </table>
                   </div>

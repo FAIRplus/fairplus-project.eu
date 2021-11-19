@@ -8,11 +8,28 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700|Muli:600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700|Muli:600&display=swap"  rel="preload"  as="style">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700|Muli:600&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <meta name="google-site-verification" content="4Gn_YRKVrewms1rykObFobg2Pq_BXUDxkW_qhtN_odk" />
-    <script src="/scripts/responsive-menu.js"></script>
-    <script src="/scripts/accordion.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-07DWQY2EXR"></script>
+<script src="/scripts/main.js"></script>
+<script>
+// Load Google analytics if cookies accepted
+if (localStorage.getItem("cookieAccepted") !== null) {
+  /*let script = document.createElement('script');
+  script.setAttribute("src","https://www.googletagmanager.com/gtag/js?id=G-07DWQY2EXR");
+  script.setAttribute("async", "async");
+  let ref = document.querySelector('script');
+  ref.parentNode.insertBefore(script, ref);*/
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-07DWQY2EXR');
+}
+</script>
+
 </head>
 <body>
     <div class="hidden">
@@ -26,8 +43,8 @@
         </div>
         <div class="nav-wrapper">
             <div class="inner-container">
-                <label id="show-nav" for="nav-checkbox" title="Show main menu"></label>
-                <input type="checkbox" id="nav-checkbox" class="nav-checkbox" />
+                <label id="show-nav" for="nav-checkbox" title="Show main menu"  aria-label="Show main menu"><span class="hidden">Show main menu</span>
+                <input type="checkbox" id="nav-checkbox" class="nav-checkbox" /></label>
                 <nav id="main-nav">
                     <ul>
                         <li><a href="/"<?php echo ($section == 'home')? ' class="active"' : ''; ?>>Home</a></li>
