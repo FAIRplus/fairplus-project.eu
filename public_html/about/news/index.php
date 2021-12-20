@@ -13,6 +13,7 @@
                 <article>
                   <h1>News</h1>
 <ul>
+    <li><a href="etox-case-study">eTOX case study: unlocking  toxicology data for drug discovery</a><br /><span class="grey">(20 December 2021)</span>  </li>
   <li><a href="fairplus-fellowship">The FAIRplus Fellowship Programme starts with engaged fellows and high hopes</a><br /><span class="grey">(22 September 2021)</span>  </li>
   <li><a href="cookbook-webinar">Webinar: Discovering the FAIR Cookbook</a><br /><span class="grey">(26 May 2021)</span>  </li>
   <li><a href="resolute-impact-story">FAIR from the start: Implementing FAIR data practices in the RESOLUTE project</a> <br /><span class="grey">(20 December 2020)</span></li>

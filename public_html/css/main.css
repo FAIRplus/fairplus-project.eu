@@ -210,6 +210,13 @@ main ul li {
   position: relative;
 }
 
+main ul.no-bullet li{
+  list-style-type: decimal;
+}
+main ul.no-bullet li:before {
+  content: "";
+}
+
 main ul.low-padding li {
   padding-bottom: 5px;
 }
