@@ -137,7 +137,8 @@
 
                     <p><strong>The phase four</strong> is a face-to-face meeting attended by all fellows. During the meeting, the fellows will present their FAIRification project results to demonstrate their understanding of FAIR data management and their capability of acting as FAIR data experts. At the end of the day, participants will receive formal certificates.</p>
 
-
+                    <p> The FAIRplus fellowship program is also available online.</p>
+                  <p><a href="https://ilias.fraunhofer.de/ilias.php?baseClass=ilrepositorygui&reloadpublic=1&cmd=frameset&ref_id=1" target="_blank" class="button purple">View the FAIRplus fellowship modules</a></p>
 
                   <h2>Contact</h2>
                   <figure class="float-left percent-20">

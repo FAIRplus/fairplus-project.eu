@@ -14,6 +14,11 @@
                         <h1>Fellowship Programme </h1>
 
                         <p>The FAIRplus Fellowship Programme is a comprehensive training programme in FAIR data management. <strong>The programme will run for a period of approximately 8 months, starting in May 2021</strong> and will guide its fellows through a series of modules combining online learning, 'training on the job' and short face-to-face meetings.</p>
+
+                        <div class="tinted inner-padding">
+                            <p> <strong>The FAIRplus fellowship program is available online.</strong></p>
+                            <p class="x-top-margin"><a href="https://ilias.fraunhofer.de/goto.php?target=crs_15173&client_id=fraunhofer" target="_blank" class="button purple">View the FAIRplus fellowship modules</a></p>
+                        </div>
                         <p>After completing the programme, the fellows will have the confidence to lead, advise and initiate FAIR data processes in their respective companies and organisations.</p>
 
                         <figure>
