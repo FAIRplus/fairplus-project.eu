@@ -11,10 +11,6 @@
         <div class="flex-container">
             <div class="percent-75">
                 <article>
-                      <div class="tinted dark-background purple rounded inner-padding x-bottom-margin clearfix centered">
-                        <a href="/about//news/fairplus-fellowship"><img src="/images/fellows.jpg" style="width: 75%;" alt="Image of the cookbook webinar participants" /></a>
-                        <p class="no-bottom-margin low-top-margin"><strong><a href="/about//news/fairplus-fellowship">The FAIRplus Fellowship Programme starts</a></strong> </p>
-                      </div>
                       <figure>
                         <img src="images/fairplus-meeting-202001-group.jpg" alt="Group photo of the FAIRplus members" style="max-width: 100%;" class="low-top-margin" />
                     <figcaption>Members of the FAIRplus consortium at the FAIRplus General Assembly 30-31 January 2020 in Hinxton, UK.</figcaption>
