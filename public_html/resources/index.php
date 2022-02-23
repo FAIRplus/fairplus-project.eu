@@ -42,12 +42,12 @@
                   </ul>
                   <h3 class="smaller">December 2021</h3>
                   <ul class="low-top-margin">
-                    <li>FAIRplus Cookbook</li>
+                      <li><a href="https://fairplus.github.io/the-fair-cookbook/content/home.html">FAIRplus Cookbook</a></li>
                     <li>BYOD guidelines</li>
                     <li>Technical feasibility report</li>
                     <li>FAIRification guidance tool for IMI</li>
                     <li>Use case dissemination package</li>
-                    <li>IMI FAIR data catalogue</li>
+                    <li><a href="https://datacatalog.elixir-luxembourg.org/">IMI FAIR data catalogue</a></li>
                   </ul>
 
                   <p class="x-top-margin">For more information about the project and the context of these resources, see <a href="/about/">About the project</a>.
