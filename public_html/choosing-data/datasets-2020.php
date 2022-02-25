@@ -64,7 +64,7 @@
 
 
                   <ul class="inline-links x-top-margin">
-                  <li><a href="/choosing-data/">Choosing a dataset</a></li>
+                  <li><a href="/choosing-data/">Datasets</a></li>
                   <li><a href="#main-header">Back to the top</a></li>
                   </ul>
 

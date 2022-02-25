@@ -49,11 +49,12 @@ if (localStorage.getItem("cookieAccepted") !== null) {
                     <ul>
                         <li><a href="/"<?php echo ($section == 'home')? ' class="active"' : ''; ?>>Home</a></li>
                         <li><a href="/about/"<?php echo ($section == 'about')? ' class="active"' : ''; ?>>About</a></li>
-                        <li><a href="/choosing-data/"<?php echo ($section == 'choosing-data')? ' class="active"' : ''; ?>>Choosing a dataset</a></li>
+                        <li><a href="/choosing-data/"<?php echo ($section == 'choosing-data')? ' class="active"' : ''; ?>>Datasets</a></li>
                         <li><a href="/making-fair/"<?php echo ($section == 'making-fair')? ' class="active"' : ''; ?>>Making the data FAIR</a></li>
                         <li><a href="/get-involved/"<?php echo ($section == 'get-involved')? ' class="active"' : ''; ?>>Get involved</a></li>
                         <li><a href="/impact/"<?php echo ($section == 'impact')? ' class="active"' : ''; ?>>Impact</a></li>
                         <li><a href="/resources/"<?php echo ($section == 'resources')? ' class="active"' : ''; ?>>Resources</a></li>
+                        <li><a href="/news/"<?php echo ($section == 'news')? ' class="active"' : ''; ?>>News & Events</a></li>
                     </ul>
                 </nav>
             </div>

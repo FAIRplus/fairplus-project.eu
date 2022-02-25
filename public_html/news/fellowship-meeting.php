@@ -1,6 +1,6 @@
 <?php
-$title = "FAIRplus news - eTOX Case Study | FAIRplus";
-$description = "News article about FAIRification of toxicology data for drug discovery";
+$title = "FAIRplus news - Successful online Fellowship meeting | FAIRplus";
+$description = "News article about successful online Fellowship meeting hosted by FAIRplus";
 $section = "news";
 $page = "news";
 include $_SERVER['DOCUMENT_ROOT']."/includes/header.inc";
@@ -12,35 +12,27 @@ include $_SERVER['DOCUMENT_ROOT']."/includes/header.inc";
             <div class="percent-75">
                 <article>
 
-                    <h1>eTOX case study: unlocking  toxicology data for drug discovery</h1>
+                    <h1>FAIRplus hosts successful online Fellowship meeting</h1>
 
-                    <h3>FAIRplus partners have finished working on making the eTOX data more Findable, Accessible, Interoperable and Reusable (FAIR). They have captured the lessons learned and hurdles found in a case study and the <a href="https://w3id.org/faircookbook/" target="_blank">FAIR Cookbook</a> .</h3>
+                    <h3 class="bottom-margin">On 17-18 January 2022, FAIRplus held a virtual Fellowship meeting. The two-day meeting, which marked the second phase of the Fellowship programme, consisted of presentations, workshops and networking to bring together FAIRplus Fellows with project experts.</h3>
 
-                    <p>&nbsp;</p>
+                    <p>The FAIRplus Fellowship Programme, which started in May 2021, is a comprehensive training programme in FAIR data management. The goal of the programme is to train people from different backgrounds to enable them to act as FAIR ambassadors in their organisations. A total of 18 FAIRplus fellows are enrolled in the programme. They are guided through a series of modules combining online learning, training on the job and face-to-face meetings. Through the Fellowship Meeting, the fellows had the opportunity to sharpen their own FAIRification capabilities with the help of FAIR Experts from different institutions.
+                    </p>
 
-                    <p>In the <a href="http://www.etoxproject.eu/" target="_blank"> eTOX IMI project</a>, several companies joined forces to create a <a href="http://www.etoxproject.eu/" target="_blank"> large scale toxicology database</a>, covering 8.8 million pre-clinical data points on nearly 2,000 chemicals from 8,196 studies that included predictions on health effects.</p>
-
-                    <figure class="top-margin">
-                        <a href="https://zenodo.org/record/5786675#.Ybtqsm3P23I " target="_blank"><img src="https://fairplus-project.eu/images/etox-fairplus.jpeg" alt="eTOX case study" style="max-width: 55%;" class="low-top-margin right-margin float-right"></a>
-                    </figure>
-                    <p>Such an effort can significantly impact drug development since many new chemicals are discarded for their toxicity despite showing excellent efficacy.</p>
-                    <p>However, data must be FAIR to exploit its full potential; eTOX data scored a FAIRness level of 25% based on concrete <a href="https://fairplus.github.io/fairification-results/" target="_blank">indicators</a>.</p>
-                    <p>After efforts from the FAIRplus project, the eTOX data FAIRness level rose to 50%, increasing the chances of sharing and reusing this treasure trove of toxicology data. Broadly sharing toxicology knowledge could:</p>
+                    <!--<figure class="top-margin">
+                        <img src="/images/fairplus-fellowship-meeting.png" alt="Fellowship meeting" style="max-width: 55%;" class="low-top-margin right-margin float-right">
+                    </figure>-->
+                    <p>The meeting was held online through the platform wonder.me, which allowed participating fellows to collaborate, discuss and network with each other. During the meeting, experts from FAIRPlus participated to present on a range of topics:</p>
 
                     <ul>
-                        <li>Lower the attrition rate in drug development</li>
-                        <li>Significantly reduce animal testing</li>
-                        <li>Accelerate the development of novel drugs</li>
+                        <li>“Identifiers and Semantic PURLs" by Robert Giessmann from Bayer</li>
+                        <li>"RESOLUTE - How FAIRification can really help a project forward" by Jolanda Strubel from The Hyve and Vitaly Sedlyarov from Boehringer Ingelheim</li>
+                        <li>“Researching available standards in FAIRsharing” by Dr Philippe Rocca-Serra from University of Oxford</li>
+                        <li>“Omics Data Matrix - an interactive recipe workshop” by Dr Andreas Pippow from Fraunhofer FIT</li>
                     </ul>
 
-                    <p>This case study analyses how the project achieved a 25% increase in FAIRness level, the hurdles faced, and the solutions applied. It focuses on two main solutions:</p>
-                    <ul class="no-bullet">
-                        <li>Chemical identifiers. Convert files to commonly accepted standards by extracting identifiers <a href="https://w3id.org/faircookbook/FCB007" target="_blank"> [fcb:FCB007]</a>.</li>
-                        <li>Ontology mapping. Control terminology in free-text phrases to avoid subjective interpretations <a href="https://w3id.org/faircookbook/FCB042" target="_blank"> [fcb:FCB042]</a>.</li>
-                    </ul>
-                    <p>The original eTOX FAIRification recipes have been provided to <a href="https://etransafe.eu/" target="_blank"> eTRANSAFE</a> for further reuse and are also available in the FAIRplus cookbook. The FAIRification of the eTOX-data and the FAIRcookbook recipes will help life sciences researchers in academic and private settings accelerate research by making data more connected.</p>
-                    <p>Read/download/share the eTOX case study, openly available on <a href="https://zenodo.org/record/5786675#.Ybtqsm3P23I" target="_blank"> Zenodo</a>.</p>
-                    <p>For more information on the eTOX case, visit the <a href="https://w3id.org/faircookbook/FCB042" target="_blank"> FAIR Cookbook applied example</a></p>
+                    <p>Despite the challenge raised by the virtual environment, the FAIRplus Fellowship Meeting was reviewed very positively by the fellows. As put forward by one of the fellows on the Miro board, “I liked getting in touch with other fellows and the FAIRplus experts.”</p>
+
                 </article>
             </div>
             <div class="percent-25">

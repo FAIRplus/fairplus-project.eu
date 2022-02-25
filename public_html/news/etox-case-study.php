@@ -1,7 +1,7 @@
 <?php
 $title = "FAIRplus news - eTOX Case Study | FAIRplus";
 $description = "News article about FAIRification of toxicology data for drug discovery";
-$section = "about";
+$section = "news";
 $page = "news";
 include $_SERVER['DOCUMENT_ROOT']."/includes/header.inc";
 ?>
@@ -44,9 +44,6 @@ include $_SERVER['DOCUMENT_ROOT']."/includes/header.inc";
                 </article>
             </div>
             <div class="percent-25">
-                <?php
-                include $_SERVER['DOCUMENT_ROOT']."/includes/subnav-about.inc";
-                ?>
 
                 <div class="xx-top-margin">
                     <?php

@@ -1,7 +1,7 @@
 <?php
    $title = "FAIR Cookbook incorporated into the IMI guidance and tools catalogue";
    $description = "News article about incorpotrating of FAIR Cookbook  into the IMI guidance and tools catalogue";
-   $section = "about";
+   $section = "news";
    $page = "news";
    include $_SERVER['DOCUMENT_ROOT']."/includes/header.inc";
 ?>
@@ -33,9 +33,16 @@
                 </article>
             </div>
             <div class="percent-25">
-            <?php
-            include $_SERVER['DOCUMENT_ROOT']."/includes/subnav-about.inc";
-            ?>
+                <div class="xx-top-margin">
+                    <?php
+                    include $_SERVER['DOCUMENT_ROOT']."/includes/stay-in-touch.inc";
+                    ?>
+                </div>
+                <div class="xx-top-margin">
+                    <?php
+                    include $_SERVER['DOCUMENT_ROOT']."/includes/twitter-feed.inc";
+                    ?>
+                </div>
             </div>
           </div>
        </div>

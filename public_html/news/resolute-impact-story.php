@@ -1,7 +1,7 @@
 <?php
    $title = "FAIRplus news - RESOLUTE Impact Story | FAIRplus";
    $description = "News article about FAIRification of RESOLUTE datasets";
-   $section = "about";
+   $section = "news";
    $page = "news";
    include $_SERVER['DOCUMENT_ROOT']."/includes/header.inc";
 ?>
@@ -91,9 +91,6 @@ Superti-Furga G, Lackner D, Wiedmer T. et al (2020). The RESOLUTE consortium: un
 </article>
 </div>
 <div class="percent-25">
-<?php
-include $_SERVER['DOCUMENT_ROOT']."/includes/subnav-about.inc";
-?>
 
 <div class="xx-top-margin">
 <?php

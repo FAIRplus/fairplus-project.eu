@@ -42,7 +42,7 @@
                   <p>As a newly commenced project the RESOLUTE consortium, through its cooperation with FAIRplus, will seek to implement FAIR methods into its data management approach from the earliest stages of its operation.</p>
 
                   <ul class="inline-links x-top-margin">
-                  <li><a href="/choosing-data/">Choosing a dataset</a></li>
+                  <li><a href="/choosing-data/">Datasets</a></li>
                   <li><a href="#main-header">Back to the top</a></li>
                   </ul>
 
