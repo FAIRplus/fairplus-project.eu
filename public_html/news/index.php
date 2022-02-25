@@ -1,7 +1,7 @@
 <?php
    $title = "News | FAIRplus";
    $description = "News articles about the FAIRplus project";
-   $section = "about";
+   $section = "news";
    $page = "news";
    include $_SERVER['DOCUMENT_ROOT']."/includes/header.inc";
 ?>
@@ -13,6 +13,7 @@
                 <article>
                   <h1>News</h1>
 <ul>
+    <li><a href="fellowship-meeting">FAIRplus hosts successful online Fellowship meeting</a><br /><span class="grey">(25 February 2022)</span>  </li>
     <li><a href="cookbook-imi-guidance">FAIR Cookbook incorporated into the IMI guidance and tools catalogue</a><br /><span class="grey">(21 January 2022)</span>  </li>
     <li><a href="etox-case-study">eTOX case study: unlocking  toxicology data for drug discovery</a><br /><span class="grey">(20 December 2021)</span>  </li>
   <li><a href="fairplus-fellowship">The FAIRplus Fellowship Programme starts with engaged fellows and high hopes</a><br /><span class="grey">(22 September 2021)</span>  </li>
@@ -21,6 +22,12 @@
 <li><a href="sme-forum-2020">First results presented at the FAIRplus Innovation and SME Forum</a><br /><span class="grey">(7 February 2020)</span>
 </li>
 </ul>
+                    <h2>Events</h2>
+                    <ul>
+                        <li>
+                            <a href="/get-involved/innovation-sme-forum">Innovation and SME Forums</a> &raquo;
+                        </li>
+                    </ul>
 <h2>Newsletters</h2>
 <ul>
   <li><a href="https://mailchi.mp/elixir-europe/fairplusnewsletter-07">FAIRplus newsletter 07</a> (April 2021)</li>
@@ -32,13 +39,24 @@
   <li><a href="https://mailchi.mp/1f8f4e5255ab/fairplus-newsletter-no-1">FAIRplus newsletter 01</a> (March 2019)</li>
 </ul>
 
+
 </article>
 </div>
-<div class="percent-25">
-<?php
-include $_SERVER['DOCUMENT_ROOT']."/includes/subnav-about.inc";
-?>
-</div>
+              <div class="percent-25">
+                  <?php
+                  //include $_SERVER['DOCUMENT_ROOT']."/includes/subnav-get-involved.inc";
+                  ?>
+                  <div class="xx-top-margin">
+                      <?php
+                      include $_SERVER['DOCUMENT_ROOT']."/includes/stay-in-touch.inc";
+                      ?>
+                  </div>
+                  <div class="xx-top-margin">
+                      <?php
+                      include $_SERVER['DOCUMENT_ROOT']."/includes/twitter-feed.inc";
+                      ?>
+                  </div>
+              </div>
 </div>
 </div>
 </main>
