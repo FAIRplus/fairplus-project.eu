@@ -154,14 +154,14 @@
                       <td>Report on BYODs</td>
                       <td>WP2</td>
                     </tr>
-                    <tr>
+                    <tr class="grey">
                       <td>06/21</td>
                       <td>First EFPIA participant FAIRification complete</td>
                       <td>WP3</td>
                     </tr>
                     <tr>
                       <td>12/21</td>
-                      <td>Provide IMI FAIR Data Catalogue</td>
+                      <td><a href="https://zenodo.org/record/5788627#.YbyGen3P30o">Provide IMI FAIR Data Catalogue</a></td>
                       <td>WP3</td>
                     </tr>
                     <tr>
@@ -176,7 +176,7 @@
                     </tr>
                     <tr>
                       <td>12/21</td>
-                      <td>Sustainability white paper</td>
+                        <td><a href="https://zenodo.org/record/6385121#.Yj3sVH3P30o">Sustainability white paper</a></td>
                       <td>WP3</td>
                     </tr>
                     <tr>
@@ -191,7 +191,7 @@
                     </tr>
                     <tr>
                       <td>12/21</td>
-                      <td>FAIRplus Handbook and project monitoring</td>
+                        <td><a href="https://zenodo.org/record/5789381#.Yby0P33P30o">FAIRplus Handbook and project monitoring</a></td>
                       <td>WP5</td>
                     </tr>
                     <tr>
