@@ -53,7 +53,7 @@
                         <li>For those who are traveling from abroad, we recommend monitoring information on the <a href="https://allaboutberlin.com/guides/coronavirus" target="_blank">website</a> .</li>
                     </ul>
 
-                <p><a href="https://drive.google.com/file/d/14pqmpnl0f5DBWh_K9V0_I1oN_MvJ_cpH/view?usp=sharing">View the full agenda</a></p>
+                <p><a href="/images/file/FAIRplus Innovation and SME Forum Programme.docx.pdf">View the full agenda</a></p>
                     <p><a href="https://elixir-events.eventscase.com/attendance/event/index/41336/EN?step=login">Event registration</a></p>
                     <p><a href="https://elixir-europe.org/events/fairplus-innovation-and-sme-forum-implementing-fair-data-principles-life-science-research">More information</a></p>
 
