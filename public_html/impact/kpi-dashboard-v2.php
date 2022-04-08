@@ -11,12 +11,12 @@
           <div class="flex-container">
              <div class="percent-75">
                 <article>
-                    <h1> KPI Dashboard</h1>
-                    <div class='tableauPlaceholder' id='viz1642639381460' style='position: relative'>
+                    <!--<h1> KPI Dashboard</h1>-->
+                    <div class='tableauPlaceholder' id='viz1646513731817' style='position: relative'>
                         <object class='tableauViz'  style='display:none;'>
                             <param name='host_url' value='https://public.tableau.com/' />
                             <param name='embed_code_version' value='3' />
-                            <param name='path' value='views&#47;FAIRplusKPIdashboard&#47;Dashboard?:language=en-GB&amp;:embed=true&amp;publish=yes' />
+                            <param name='path' value='views&#47;FAIRplusKPIdashboard&#47;Dashboard2?:language=en-GB&amp;:embed=true&amp;publish=yes' />
                             <param name='toolbar' value='yes' />
                             <param name='animate_transition' value='yes' />
                             <param name='display_static_image' value='yes' />
@@ -28,12 +28,12 @@
                         </object>
                     </div>
                     <script type='text/javascript'>
-                        var divElement = document.getElementById('viz1642639381460');
+                        var divElement = document.getElementById('viz1646513731817');
                         var vizElement = divElement.getElementsByTagName('object')[0];
                         if ( divElement.offsetWidth > 800 )
                         {
                             vizElement.style.width='750px';
-                            vizElement.style.height='2727px';
+                            vizElement.style.height='3400px';
                         }
                         else if ( divElement.offsetWidth > 500 )
                         {
