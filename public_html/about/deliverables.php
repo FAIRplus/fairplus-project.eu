@@ -135,27 +135,27 @@
                       <td>WP2</td>
                     </tr>
                     <tr>
-                      <td>12/21</td>
+                      <td>06/22</td>
                       <td>Finalised selection criteria and guidelines for data sources taking into account practical operational experiences established within WP2 and WP3</td>
                       <td>WP1</td>
                     </tr>
                     <tr>
-                      <td>12/21</td>
+                      <td>06/22</td>
                       <td>FAIR Cookbook</td>
                       <td>WP2</td>
                     </tr>
                     <tr>
-                      <td>12/21</td>
+                      <td>06/22</td>
                       <td>BYOD Guidelines</td>
                       <td>WP2</td>
                     </tr>
-                    <tr>
+                    <!--<tr>
                       <td>12/21</td>
                       <td>Report on BYODs</td>
                       <td>WP2</td>
-                    </tr>
-                    <tr class="grey">
-                      <td>06/21</td>
+                    </tr>-->
+                    <tr>
+                      <td>02/22</td>
                       <td>First EFPIA participant FAIRification complete</td>
                       <td>WP3</td>
                     </tr>
@@ -165,22 +165,22 @@
                       <td>WP3</td>
                     </tr>
                     <tr>
-                      <td>12/21</td>
+                      <td>06/22</td>
                       <td>Provide a technical feasibility report</td>
                       <td>WP3</td>
                     </tr>
                     <tr>
-                      <td>12/21</td>
+                      <td>06/22</td>
                       <td>A FAIRification guidance tool for IMI</td>
                       <td>WP3</td>
                     </tr>
                     <tr>
-                      <td>12/21</td>
+                      <td>03/22</td>
                         <td><a href="https://zenodo.org/record/6385121#.Yj3sVH3P30o">Sustainability white paper</a></td>
                       <td>WP3</td>
                     </tr>
                     <tr>
-                      <td>12/21</td>
+                      <td>06/22</td>
                       <td>Dissemination package comprising three convincing use cases demonstrating the scientific value of FAIRification</td>
                       <td>WP4</td>
                     </tr>
@@ -195,12 +195,12 @@
                       <td>WP5</td>
                     </tr>
                     <tr>
-                      <td>06/22</td>
+                      <td>12/22</td>
                       <td>FAIR-CMM</td>
                       <td>WP2</td>
                     </tr>
                     <tr>
-                      <td>06/22</td>
+                      <td>12/22</td>
                       <td>FAIRplus overview of the scientific publications</td>
                       <td>WP5</td>
                     </tr>
