@@ -1,5 +1,5 @@
 <?php
-   $title = "Deliverables and deliverables | FAIRplus";
+   $title = "Deliverables and milestones | FAIRplus";
    $description = "Deliverables and milestones from the FAIRplus project (2019-21)";
    $section = "about";
    $page = "deliverables";

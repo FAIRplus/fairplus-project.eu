@@ -37,10 +37,13 @@
                     <h2>Upcoming Innovation and SME Forums</h2>
                     <div class="tinted inner-padding-small clearfix x-top-margin">
                         <h3 class="top-margin">3rd Innovation and SME Forum, 17 May 2022</h3>
-                        <h4>(Hybrid)</h4>
+                        <h4>(Virtual)</h4>
                         <ul class="top-margin">
-                            <li><a href="https://elixir-events.eventscase.com/attendance/event/index/41336/EN?step=login">Event registration</a></li>
                             <li><a href="/get-involved/3rd-innovation-sme-forum">Event page</a></li>
+                            <li><a href="https://drive.google.com/drive/u/1/folders/16XbG6GBj529bedJAUr8eq9sCk228jC53" target="_blank">Presentation slides</a></li>
+                            <li><a href="https://slideslive.com/38982494" target="_blank">FAIRcook book and FAIR maturity mode</a></li>
+                            <li><a href="https://slideslive.com/38982496/ihi-experiences-strategic-partnerships-sustainability" target="_blank">IHI experiences, Strategic partnerships, sustainability</a></li>
+                            <li><a href="https://slideslive.com/38982497/panel-regarding-costs-and-benefits-of-fair-implementation" target="_blank">Panel regarding costs and benefits of FAIR Implementation</a></li>
                         </ul>
                     </div>
 

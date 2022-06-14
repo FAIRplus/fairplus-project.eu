@@ -13,6 +13,7 @@
                 <article>
                   <h1>News</h1>
 <ul>
+    <li><a href="fairness-stem-cell-data">EBiSC2 and FAIRplus are improving FAIRness of stem cell data</a><br /><span class="grey">(17 May 2022)</span>  </li>
     <li><a href="fellowship-meeting">FAIRplus hosts successful online Fellowship meeting</a><br /><span class="grey">(25 February 2022)</span>  </li>
     <li><a href="cookbook-imi-guidance">FAIR Cookbook incorporated into the IMI guidance and tools catalogue</a><br /><span class="grey">(21 January 2022)</span>  </li>
     <li><a href="etox-case-study">eTOX case study: unlocking  toxicology data for drug discovery</a><br /><span class="grey">(20 December 2021)</span>  </li>
