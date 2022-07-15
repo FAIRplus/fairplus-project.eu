@@ -17,9 +17,8 @@
                   <p>The <a href="/about/how-project-organised#squads">FAIRplus Squad teams</a> have compiled a list of publications and papers on FAIR data in biomedical domains. The list includes the recent developments in implementing FAIR principles in biomedical research as well as case studies on the impact and benefits of FAIR data.</p>
 
                   <ul>
+                      <li>Alharbi E., Gadiya Y., Henderson D., et al. Selection of data sets for FAIRification in drug discovery and development: Which, why, and how? Drug Discovery Today. Available online 17 May 2022. <a href="http://doi.org/10.1016/j.drudis.2022.05.010" target="_blank"> doi.org/10.1016/j.drudis.2022.05.010</a></li>
                   <li>Lamprecht, AL,  Garcia, L. Kuzak, M, et al. Towards FAIR principles for research software. Data Science, vol. Pre-press, no. Pre-press, pp. 1-23, 2019. Published 2019 Nov 13. <a href="https://content.iospress.com/articles/data-science/ds190026" target="_blank">doi: 10.3233/DS-190026</a></li>
-
-            
 
                   <li>Madduri R, Chard K, D'Arcy M, et al. Reproducible big data science: A case study in continuous FAIRness. PLoS One. 2019;14(4) e0213013. Published 2019 Apr 11. <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213013" target="_blank">doi:10.1371/journal.pone.0213013</a> </li>
 
