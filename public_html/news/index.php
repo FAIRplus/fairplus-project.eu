@@ -32,6 +32,8 @@
                     </ul>
 <h2>Newsletters</h2>
 <ul>
+    <li><a href="https://mailchi.mp/elixir-europe/fairplusnewsletter-09?e=[UNIQID]">FAIRplus Newsletter 09</a> (July 2022)</li>
+    <li><a href="https://mailchi.mp/elixir-europe/fairplusnewsletter-08?e=[UNIQID]">FAIRplus Newsletter 08</a> (February 2022)</li>
   <li><a href="https://mailchi.mp/elixir-europe/fairplusnewsletter-07">FAIRplus newsletter 07</a> (April 2021)</li>
   <li><a href="https://mailchi.mp/e8e72e683e14/fairplus-newsletter-no-1294358">FAIRplus newsletter 06</a> (November 2020)</li>
   <li><a href="http://eepurl.com/g9n8h9">FAIRplus newsletter 05</a> (July 2020)</li>
