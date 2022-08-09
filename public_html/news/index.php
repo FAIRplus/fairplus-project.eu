@@ -13,6 +13,8 @@
                 <article>
                   <h1>News</h1>
 <ul>
+    <li><a href="fairplus-combine-case-study">COMBINE case study: The importance of data standards</a><br /><span class="grey">(23 June 2022)</span></li>
+    <li><a href="fairplus-approach-case-study">APPROACH case study: Some data are more equal than others</a><br /><span class="grey">(23 June 2022)</span></li>
     <li><a href="fairplus-innovation-sme-forum">FAIRplus project outcomes presented in the 3rd FAIRplus Innovation and SME Forum</a><br /><span class="grey">(15 June 2022)</span></li>
     <li><a href="fairness-stem-cell-data">EBiSC2 and FAIRplus are improving FAIRness of stem cell data</a><br /><span class="grey">(17 May 2022)</span>  </li>
     <li><a href="fellowship-meeting">FAIRplus hosts successful online Fellowship meeting</a><br /><span class="grey">(25 February 2022)</span>  </li>

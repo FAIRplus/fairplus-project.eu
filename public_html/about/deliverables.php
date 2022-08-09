@@ -141,12 +141,12 @@
                     </tr>
                     <tr>
                       <td>06/22</td>
-                      <td>FAIR Cookbook</td>
+                        <td><a href="https://zenodo.org/record/6783564#.Yr213OzMKAk">FAIR Cookbook</a></td>
                       <td>WP2</td>
                     </tr>
                     <tr>
                       <td>06/22</td>
-                      <td>BYOD Guidelines</td>
+                        <td><a href="https://zenodo.org/record/6806341#.YsaxyezMKAk">BYOD Guidelines</a></td>
                       <td>WP2</td>
                     </tr>
                     <!--<tr>
@@ -166,12 +166,12 @@
                     </tr>
                     <tr>
                       <td>06/22</td>
-                      <td>Provide a technical feasibility report</td>
+                        <td><a href="https://zenodo.org/record/6856875#.YtV2eOzML0o">Provide a technical feasibility report</a></td>
                       <td>WP3</td>
                     </tr>
                     <tr>
                       <td>06/22</td>
-                      <td>A FAIRification guidance tool for IMI</td>
+                      <td><a href="https://zenodo.org/record/6821509#.Ys1Ut-zML0o">A FAIRification guidance tool for IMI</a></td>
                       <td>WP3</td>
                     </tr>
                     <tr>
@@ -181,7 +181,7 @@
                     </tr>
                     <tr>
                       <td>06/22</td>
-                      <td>Dissemination package comprising three convincing use cases demonstrating the scientific value of FAIRification</td>
+                        <td><a href="https://zenodo.org/record/6799039#.YsVpm-zMKAk">Dissemination package comprising three convincing use cases demonstrating the scientific value of FAIRification</a></td>
                       <td>WP4</td>
                     </tr>
                     <tr class="grey">
